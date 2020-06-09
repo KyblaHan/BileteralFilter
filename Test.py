@@ -94,7 +94,6 @@ def plot_estimates_gauss(image,rng):
     # p_psnr.plot(rng,list_psnr)
     p_psnr.plot(rng,list_psnr_filter)
     # p_ssim.plot(rng,list_ssim)
-
     p_ssim.plot(rng,list_ssim_filter)
 
     plt.show()
